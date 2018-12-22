@@ -89,11 +89,15 @@ ranks: 'false'
 
 # Format on screen stats
 mainFormat:
-  - '&5-- == &6[&eMyStats&6] &5== ---'
-  - '&3Welcome: &b%name'
-  - '&3You are playing on &b%level'
+  - '&b-- == &6[&cTGFT&6] &b== ---'
+  - '&cName: &f%name'
+  - '&bServersTps: %tps'
+  - '&eRank: &%rank'
+  - '&2faction: %faction'
+  - '&aMoney: %money'
   - '&3Kills: %kills'
   - '&3Deaths: %deaths'
+  - '&c-- == &6[&cEnd&6] &b== ---'
 
 # Format for command /stats (/mystats)
 cmdFormat:
